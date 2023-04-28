@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaun Nelson",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "keywords": [
+    "README",
+    "generator",
+    "professional"
+  ]
+}
