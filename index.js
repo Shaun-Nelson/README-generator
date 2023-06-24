@@ -36,6 +36,11 @@ const questions = [
     name: "tests",
   },
   {
+    type: "input",
+    message: "How can I reach you with additional questions?",
+    name: "questions",
+  },
+  {
     type: "list",
     message: "Which license to choose from?",
     name: "license",
@@ -70,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((answers) => {
     const markdown = generateMarkdown(answers);
-    writeToFile("README1.md", markdown);
+    writeToFile("README_SAMPLE.md", markdown);
   });
 }
 

@@ -46,6 +46,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contributing Guidelines](#contributing-guidelines)
   - [Tests](#tests)
+  - [Questions](#questions)
   - [License](#license)
 
   ## Description
@@ -67,6 +68,12 @@ function generateMarkdown(data) {
   ## Tests
 
   ${data.tests}
+
+  ## Questions
+
+  ${data.questions}
+  ${data.username}
+  ${data.email}
 
   ## License
 
