@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  - [${data.title}](#${data.title})
+  - [${data.title}](#${data.title.toLowerCase().split(" ").join("-")})
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
